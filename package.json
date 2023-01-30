@@ -1,7 +1,7 @@
 {
-  "name": "logistic-project",
+  "name": "logistic",
   "version": "1.0.0",
-  "description": "project for logistic issues",
+  "description": "logistic app for logistic issues",
   "main": "app.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
@@ -11,9 +11,9 @@
     "url": "git+https://github.com/FameX2/logistic.git"
   },
   "keywords": [
-    "logistic",
-    "node",
-    "html"
+    "nodejs",
+    "html",
+    "mysql"
   ],
   "author": "Peter Harlamov <pjotrharlamov99@gmail.com>",
   "license": "ISC",
