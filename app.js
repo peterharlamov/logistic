@@ -9,7 +9,8 @@ app.listen(port, (error => {
     error ? console.log(error) : console.log(`Connected to port: ${port}`)
 }))
 
-app.use(express.static('pages'))
+app.use(express.static("pages"))
+app.use(express.static("styles"))
 
 app.get('/', (req, res) => {
     res.sendFile(createPath('index'))
