@@ -20,6 +20,10 @@ app.get('/info', (req, res) => {
     res.sendFile(createPath('info'))
 })
 
+app.get('/workspace', (req, res) => {
+    res.sendFile(createPath("workspace"))
+})
+
 app.use((req, res) => {
     res
     .status(404)
