@@ -20,7 +20,20 @@ p {
     margin-top: 40px;
 }
 
+.btn-box {
+    margin-top: 10px;
+}
+
 .btn-light {
+    margin-top: 20px;
+}
+
+.btn-primary {
+    margin: 5px;
+    margin-top: 5px;
+}
+
+.btn-success {
     margin-top: 20px;
 }
 

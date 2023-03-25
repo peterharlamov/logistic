@@ -37,11 +37,11 @@ app.get('/workspace', (req, res) => {
     res.sendFile(createPath("workspace"))
 })
 
-app.get('register', (req, res) => {
+app.get('/register', (req, res) => {
     res.sendFile(createPath("register"))
 })
 
-app.get('login', (req, res) => {
+app.get('/login', (req, res) => {
     res.sendFile(createPath("login"))
 })
 
