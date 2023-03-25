@@ -1,7 +1,20 @@
 const express = require('express')
+const mysql = require('mysql')
 const path = require('path')
 const app = express()
 const port = 3000
+
+const connectdb = mysql.createConnection({
+    host: "localhost",
+    user: "root",
+    password: "",
+    database: "logistic"
+})
+
+connectdb.connect(function(error) {
+    if (error) throw error;
+    console.log('Connected! MySql')
+})
 
 const createPath = (page) => path.resolve(__dirname, 'pages', `${page}.html`)
 
