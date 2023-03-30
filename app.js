@@ -2,7 +2,8 @@ const express = require('express')
 const path = require('path')
 const app = express()
 const port = 3000
-const database = require('D:/Repositories/logistic/database.js')
+const auth = require("/Repositories/logistic/auth")
+// const database = require('D:/Repositories/logistic/database.js')
 
 const createPath = (page) => path.resolve(__dirname, 'pages', `${page}.html`)
 
